@@ -1,16 +1,30 @@
-# flutter_navigatin
+🚀 Flutter Custom Page Transitions
+This repository demonstrates how to create custom navigation animations in Flutter using PageRouteBuilder, instead of relying on the default MaterialPageRoute.
 
-A new Flutter project.
+It includes multiple reusable page transition routes that are smooth, performant, and easy to use.
 
-## Getting Started
+✨ Available Transitions
 
-This project is a starting point for a Flutter application.
+✅ Slide Transition
 
-A few resources to get you started if this is your first Flutter project:
+✅ Fade Transition
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Scale Transition
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Scale + Rotate Transition
+
+✅ Size + Fade Transition (use carefully on heavy screens)
+
+All transitions are built using Flutter’s transition widgets:
+
+SlideTransition
+
+FadeTransition
+
+ScaleTransition
+
+RotationTransition
+
+SizeTransition
+
+These rely on GPU-based transformations and avoid unnecessary widget rebuilds, keeping animations smooth.
